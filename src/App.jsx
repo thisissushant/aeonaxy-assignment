@@ -1,11 +1,18 @@
 import {} from "react";
-import { Button } from "@/components/ui/button";
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Card from "./components/Card";
+import { Footer } from "./components/Footer";
+import { Cta } from "./components/Cta";
 
 function App() {
   return (
     <>
-      <h1 className="text-green-500">Hello</h1>
-      <Button className="ml-2">Click me</Button>
+      <Navbar />
+      <Banner />
+      <Card />
+      <Cta />
+      <Footer />
     </>
   );
 }
