@@ -63,7 +63,7 @@ export const Footer = () => {
               <SelectItem value="dark">Spanish</SelectItem>
             </SelectContent>
           </Select>
-          <div className="mt-8 flex flex-row gap-4">
+          <div className="mt-4 flex flex-row gap-4">
             <FaInstagram />
             <FaFacebook />
             <FaTwitter />
@@ -71,6 +71,7 @@ export const Footer = () => {
             <FaLinkedin />
             <FaYoutube />
           </div>
+          <p className="font-light text-xs my-4">Copyright Colendly 2024</p>
         </div>
         <div>
           <h1 className="font-medium my-3">Support</h1>

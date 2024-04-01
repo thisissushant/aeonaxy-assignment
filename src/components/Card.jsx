@@ -54,7 +54,7 @@ export default function Card() {
             </div>
           </div>
           <div className="absolute inset-x-0 bottom-0 h-16 ml-6">
-            <Button className="bg-transparent text-blue-500 border-solid border-2 border-sky-500">
+            <Button className="bg-blue-500 text-white border-solid border-2 border-sky-500">
               Get Started
             </Button>
           </div>
@@ -91,7 +91,7 @@ export default function Card() {
             </div>
           </div>
           <div className="absolute inset-x-0 bottom-0 h-16 ml-6">
-            <Button className="bg-transparent text-blue-500 border-solid border-2 border-sky-500">
+            <Button className="bg-transparent text-white border-solid border-2 border-white">
               Get Started
             </Button>
           </div>
