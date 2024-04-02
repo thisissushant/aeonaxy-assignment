@@ -12,7 +12,7 @@ export const Cta = () => {
           Share your calendly link right from your browser so you can schedule
           meeting without the back and fourth
         </p>
-        <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-8">
+        <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-8 justify-center">
           <Button className="bg-blue-500">Start for free</Button>
           <Button className="bg-transparent border-2 border-white">
             Talk with sales
